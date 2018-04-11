@@ -1,0 +1,6 @@
+Start with Over the Wire bandit, when you get stuck/defeated switch to some of the others.
+
+HackerRank Bash
+HackerRank Regex
+CommandLine Challenge
+Cisco Linux
