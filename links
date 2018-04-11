@@ -1,13 +1,77 @@
-https://www.hackerrank.com/domains/regex/re-introduction
+I tried to keep this more as a collection of resources I have used to learn that I found particularly helpful,
+But I did also include some opinion-based tips and comments.
+
+## bash and deep linux essentials
 https://www.hackerrank.com/domains/shell/bash
 https://www.netacad.com/courses/ndg-linux-essentials/
+https://cmdchallenge.com/
+
+## regex
+https://www.hackerrank.com/domains/regex/re-introduction
+https://regexr.com/
+
+## shell(+!) exploits, cryptography and crack-mes
 http://overthewire.org/wargames/ (start with bandit, then play with natas, etc. You'll figure it out)
+this book > https://www.schneier.com/blog/archives/2014/01/applied_cryptog_1.html is The Book
+https://radare.gitbooks.io/radare2book/content/crackmes/intro.html
+https://trailofbits.github.io/ctf/
+https://microcorruption.com/login
+http://smashthestack.org/
 
-Github student developer pack.
-check for:
-- digitalocean https://www.digitalocean.com/
-- namecheap https://www.namecheap.com/
+## time-sensitive resources (sign up with yourlogin@student.42.us.org)
+https://education.github.com/pack
+ - digitalocean for almost a year of free minimum hosting
+ - free private repositories at github.com
+ - free domain at namecheap (goes will with DO)
+ - free e-mailing api (for sending mass emails)
 
+## languages
+coming from C, you'll be able to pick up most of these pretty easy
+https://learnxinyminutes.com/
+My recommendations: stick with C and Bash at first, and get really comfortable with the bare metal environment and execution.
+
+Java
+ - has a very C-like syntax 
+ - has high-level OOP functionality
+ - can be bloated and slimey
+ - bonus: java bytecode can be directly decompiled back to source, great for reverse engineering!
+
+C++ 
+ - Pick up at level 7 with the CPP piscine ASAP
+ - C with benefits
+ - To-the-metal C speed with a lot of OOP abstraction provided
+ - Very verbose and heavy code (but still something you'd be comfortable with coming from C)
+
+Go
+ - Has close to C-like syntax
+ - has OOP concepts, but doesn't shove them down your throat like Java or C++
+ - Very natural and easy, good for networked/distributed/threaded and web
+ - Has nil to no graphics support
+ - Comes with the GoTour - a built-in tutuorial for the language
+
+Python
+ - Pick up around level 5 (even though you can probably grok it sooner)
+ - Can support OOP concepts but not its main calling card
+ - Can be used for simple scripts just as easily as full programs
+ - Very easy
+ - Very easy
+ - Next-to-english in terms of high level readability and syntax
+ - Great for quick scripting and math/sciencey stuff
+ - Code execution is interpreted not compiled (very slow compared to other languages) (like bash)
+ - Can have a lot of package dependency confusion and environment variables you have to juggle. Sometimes easier inside its own VM
+ - Used a lot in machine learning
+ - also used a lot in security for networked penetration testing because it's quick to deploy
+
+Honorable Mentions
+- I don't have enough personal experience to explain pros/cons outside of hearsay
+- On my own To-Do list to learn
+- JavaScript - runs literally everywhere on the internet. 
+- Functional Programming languages like Haskell and Scala
+- Perl - an elegant language, somewhere between C and bash
+
+
+
+## random notes for when you're doing real stuff
 Host your computers in Amsterdam because privacy laws
 Proxy your connections through Russia because they won't comply with US disclosure requests
 
@@ -22,3 +86,10 @@ for building your computer:
 	https://www.expressvpn.com/
 	https://www.wireguard.com/
 
+http://programming-motherfucker.com/become.html
+https://n-o-d-e.net/
+
+http://www.rainymood.com/
+https://www.keybr.com/
+https://tomato-timer.com/
+https://codefights.com/
